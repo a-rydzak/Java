@@ -16,8 +16,16 @@ public class PuzzleJava{
 		// ArrayList<String> resultNames = getNames(names);
 		// System.out.println(resultNames);
 
-		ArrayList<String> alphaBet = new ArrayList<String>(Arrays.asList("A","B","C","D","E","F","G","H"));
+		// ArrayList<String> alphaBet = new ArrayList<String>(Arrays.asList("A","B","C","D","E","F","G","H"));
+		// alphabetPrinter(alphaBet);
 
+		// randomNumbers();
+
+		// ArrayList<String> alphaBet = new ArrayList<String>(Arrays.asList("A","B","C","D","E","F","G","H"));
+		// randomString(alphaBet);
+
+		ArrayList<String> alphaBet = new ArrayList<String>(Arrays.asList("A","B","C","D","E","F","G","H"));
+		getRandStrings(alphaBet);
 
 	}
 
@@ -65,7 +73,62 @@ public class PuzzleJava{
 // Have it also display the first letter of the array. If the first letter in the array is a vowel, 
 // have it display a message.
 
+	public static void alphabetPrinter(ArrayList<String> alphaBet){
+		Collections.shuffle(alphaBet);
+		int lastItem = alphaBet.size()-1;
 
+		System.out.println(alphaBet.get(lastItem));
+		System.out.println(alphaBet.get(0));
+		String[] vowles = {"A", "E", "I", "O", "U"};
+		
+		for(String str:vowles){
+			if(str == alphaBet.get(0)){
+				System.out.println("A vowel was found! " + alphaBet.get(0));
+			}
+		}
+	}
 
-	
+// Generate and return an array with 10 random numbers between 55-100.
+// To get a random integer, you can use the nextInt method of the Random 
+// class. Random Class documentation
+
+	public static int[] randomNumbers(){
+		int[] tenNumbers = new int[10];
+		Random rand = new Random();
+		
+
+		for(int i = 0; i<10 ;i++){
+			int n = rand.nextInt(46)+55;
+			tenNumbers[i] = n;
+		}
+		System.out.println(Arrays.toString(tenNumbers));
+		return tenNumbers;
+	}
+
+	// Create a random string that is 5 characters long
+	public static StringBuilder randomString(ArrayList alphaBet){
+
+		StringBuilder sb = new StringBuilder();
+		Random rand = new Random();
+
+		for(int i =0; i<5; i++){
+			int n = rand.nextInt(alphaBet.size());
+			sb.append(alphaBet.get(n));
+		}
+
+		System.out.println(sb);
+		return sb;
+	}
+
+	// Generate an array with 10 random strings that are each 5 characters long
+
+	public static String[] getRandStrings(ArrayList alphaBet){
+		String[] strings = new String[5];
+
+		for(int i =0; i<5; i++){
+			StringBuilder string = randomString(alphaBet);
+			strings[i] = string.toString();
+		}
+		return strings;
+	}
 }
