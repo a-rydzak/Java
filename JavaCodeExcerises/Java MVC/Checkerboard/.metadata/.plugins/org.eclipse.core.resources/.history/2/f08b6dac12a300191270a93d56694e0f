@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+
+*{
+	margin:0;
+	padding:0;
+}
+.squareA {
+  display:inline-block;
+  height: 50px;
+  width: 50px;
+  margin:0;
+  padding:0;
+  background-color: #b32eb3;
+  
+}
+
+.squareB {
+  margin:0;
+  padding:0;
+  background-color: #3512ff;
+}
+
+.row{
+	display:block;
+}

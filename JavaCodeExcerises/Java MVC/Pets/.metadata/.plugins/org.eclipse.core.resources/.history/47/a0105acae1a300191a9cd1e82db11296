@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+body, #container, .pet-form{
+	margin:0;
+	padding:0;
+}
+
+#container{
+	
+}
+.pet-form{
+	height:500px;
+	width:300px;
+}

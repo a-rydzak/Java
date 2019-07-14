@@ -1,0 +1,11 @@
+@charset "ISO-8859-1";
+.squareA {
+  height: 50px;
+  width: 50px;
+  background-color: #b32eb3;
+}
+.squareB {
+  height: 50px;
+  width: 50px;
+  background-color: #b32eb3;
+}

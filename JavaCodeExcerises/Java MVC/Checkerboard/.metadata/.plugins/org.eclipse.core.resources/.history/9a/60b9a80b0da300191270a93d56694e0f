@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="./Checkerboard.css">
+<title>Checkerboard App</title>
+</head>
+<body>
+	<h1>Checkerboard</h1>
+	
+	 <% for(int index = 1; index <= (Integer) request.getAttribute("width"); index++) { %>
+	 	<% if(index % 2 == 0){ %>
+	 	
+	 	<% } %>
+        <h3 class="squareA"><%= request.getAttribute("width") %></h3>
+    <% } %>
+	
+	<h3 class="squareA squareB"><%= request.getAttribute("height") %></h3>
+</body>
+</html>

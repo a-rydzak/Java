@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+body, #container, .petForm{
+	margin:0;
+	padding:0;
+}
+
+#container{
+	width:100%;
+	boder-style:solid;
+	border-color:red;
+	text-align:center;
+}
+.petForm{
+	margin-top:20px;
+	margin-left:40px;
+	display:inline-block;
+	height:400px;
+	width:300px;
+	border-style:solid;
+	border-color:black;
+	
+	
+}

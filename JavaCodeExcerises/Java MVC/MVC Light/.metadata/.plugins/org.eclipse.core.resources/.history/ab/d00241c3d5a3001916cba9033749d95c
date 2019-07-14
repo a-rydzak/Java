@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1" impoer ="com.andrewrydzak.web.models.Person"%>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Show Person Page</title>
+</head>
+<body>
+
+<% Person person = (Person) request.getAttribute("person") %>
+<h1>Hello Person</h1>
+
+</body>
+</html>

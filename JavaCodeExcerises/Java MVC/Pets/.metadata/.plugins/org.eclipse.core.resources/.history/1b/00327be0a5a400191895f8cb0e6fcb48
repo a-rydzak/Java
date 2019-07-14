@@ -1,0 +1,5 @@
+package com.andrewrydzak.web.models;
+
+public class Dog {
+
+}

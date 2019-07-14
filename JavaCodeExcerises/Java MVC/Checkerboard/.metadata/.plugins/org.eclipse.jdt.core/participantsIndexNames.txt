@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+C:\Users\user\Desktop\Checkerboard\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4158191378.index
+\Setup\src

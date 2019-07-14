@@ -23,7 +23,7 @@
 //  Create a method to see the total money from the checking and saving.
 
 //  Users should not be able to set any of the attributes from the class.
-
+import java.util.ArrayList;
 
 class BankAccount{
 
@@ -42,9 +42,12 @@ class BankAccount{
 		allAccounts.add(this.accountNumber);
 	}
 
-	private string genAccountNum(){
+	public String getAccountNum(){
+		return this.accountNumber;
+	}
+	private String genAccountNum(){
 		long number = (long) Math.floor(Math.random() * 9_000_000_000L) + 1_000_000_000L;
-		String accountNumber = Long.toString(number)
+		String accountNumber = Long.toString(number);
 		return accountNumber;
 	}
 
@@ -56,13 +59,12 @@ class BankAccount{
 		return this.savingsBalence;
 	}
 
-	// !!!!!!!!!!!!!!!!!!!!!!------------------------------------------------------Left off working this method
 
 	public void deposit(Double amount, String accountType,String accountNumber){
 
 		String account = accountType.toLowerCase().replaceAll("\\s","");
 
-		Boolean vaildAccount = allAccounts.contains(accountNumber) ? True : False;
+		Boolean vaildAccount = allAccounts.contains(accountNumber) ? true : false;
 
 		if((vaildAccount) && (account=="checking")){
 			this.checkingBalence+=amount;
@@ -70,8 +72,26 @@ class BankAccount{
 		}else if((vaildAccount) && (account=="savings")){
 			this.savingsBalence+=amount;
 		}else{
-			System.out.println("The account does not exist.")
+			System.out.println("The account does not exist.");
 		}
+
+	}
+
+	public void withdraw(Double amount, String accountType,String accountNumber){
+
+		String account = accountType.toLowerCase().replaceAll("\\s","");
+
+		Boolean vaildAccount = allAccounts.contains(accountNumber) ? true : false;
+
+		
+			if((vaildAccount) && (account=="checking")){
+				this.checkingBalence-=amount;
+
+			}else if((vaildAccount) && (account=="savings")){
+				this.savingsBalence-=amount;
+			}else{
+				System.out.println("The account does not exist.");
+			}
 
 	}
 }
