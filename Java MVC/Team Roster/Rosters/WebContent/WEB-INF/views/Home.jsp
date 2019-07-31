@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Roster</title>
+<style><%@include file="/WEB-INF/css/Home.css"%></style>
+</head>
+<body>
+
+	<div id="top">
+		<h2>Prototype Roster</h2>
+		<a href="/Rosters/NewTeam"><h3>New Team</h3></a>
+	</div>
+
+	<div id="teamsDisplay">
+		<table class="pure-table-striped">
+			<thead>
+				<tr>
+					<th>Team</th>
+					<th>Players</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<tbody>
+				<c:forEach items="${roster.getTeams()}" var="team">
+			    <tr>      
+			        <td>${team.getTeamName()}</td>
+			        <td>${team.getNumPlayers()}</td>
+			        <td><a href="/Rosters/Players?id=${team.getId()}"> Details</a></td>
+			    </tr>
+				</c:forEach>
+			</tbody>
+		</table>
+	</div>
+	
+</body>
+</html>

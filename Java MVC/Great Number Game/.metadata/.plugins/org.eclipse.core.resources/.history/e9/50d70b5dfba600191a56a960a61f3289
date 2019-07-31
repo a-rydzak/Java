@@ -1,0 +1,11 @@
+package com.andrew.rydzak.web.models;
+
+public class Number {
+	
+	int number;
+	public Number() {
+		
+	}
+	
+
+}

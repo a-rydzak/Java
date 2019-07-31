@@ -1,0 +1,16 @@
+package com.andrew.rydzak.web.models;
+
+public class Number {
+	
+	int number;
+	
+	public Number() {
+		this.number = this.setNumber();
+	}
+	
+	public int setNumber() {
+		int num = Math.floor(Math.random() * 10) + 1;
+		return num;
+	}
+
+}

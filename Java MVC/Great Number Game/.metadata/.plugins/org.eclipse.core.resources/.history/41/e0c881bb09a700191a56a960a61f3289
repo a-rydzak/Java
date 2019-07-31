@@ -1,0 +1,31 @@
+@charset "ISO-8859-1";
+
+#container{
+	width:100%;
+	text-align:center;
+}
+
+#resultContainer{
+	border-style:solid;
+	border-color:blue;
+	width:100%;
+	align-content:center;
+	text-align:center;
+}
+.incorrect{
+	vertical-align:middle;
+	margin:auto;
+	border-style:solid;
+	border-color:blue;
+	width:100px;
+	height:100px;
+	background-color: red;
+}
+
+#correct{
+	border-style:solid;
+	border-color:blue;
+	width:100px;
+	height:100px;
+	background-color: green;
+}

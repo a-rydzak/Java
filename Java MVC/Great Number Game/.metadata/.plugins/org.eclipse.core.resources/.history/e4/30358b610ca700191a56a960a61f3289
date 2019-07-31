@@ -1,0 +1,40 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Great Number Game</title>
+	<style><%@include file="/WEB-INF/css/Home.css"%></style>
+</head>
+<body>
+
+	<div id="container">
+		<h1>Welcome To The Great Numbers Game</h1>
+		<h3>I am thinking of a number between 1 and 100</h3>
+		<h3>Take A Guess</h3>
+		
+	<div id="resultContainer">	
+	<c:choose>
+	   <c:when test="${result =='high'}"><h1 class="incorrect">Too High</h1></c:when> 
+	   <c:when test="${result =='low'}"><h1 class="incorrect">Too Low</h1></c:when>
+	   <c:when test="${result =='correct'}" ><h1 id="correct">You Got It!</h1></c:when>
+	   <c:otherwise><h1></h1></c:otherwise>    
+	</c:choose>
+	</div>
+	      <form name="submitForm" method="POST" action="Restart">
+	         <input type = "submit" value = "Restart The Ga,e" />
+	      </form>	
+		<div id="submitForm">
+	      <form name="submitForm" method="POST" action="Guess">
+	         <input type="number" name="guess" required>
+	         <br>
+	         <input type = "submit" value = "Guess!" />
+	      </form>	
+		</div>
+	</div>
+	
+</body>
+</html>

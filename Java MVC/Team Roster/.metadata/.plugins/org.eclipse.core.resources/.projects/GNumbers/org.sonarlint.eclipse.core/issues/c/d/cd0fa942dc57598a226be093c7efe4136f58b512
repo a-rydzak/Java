@@ -1,0 +1,20 @@
+
+|squid:S1192."GDefine a constant instead of duplicating this literal "result" 3 times.(’µñÊşÿÿÿÿH¿RCRITICALZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿHÀRINFOZ
+CODE_SMELL
+lsquid:S1161":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿHÁRMAJORZ
+CODE_SMELL
+Xsquid:S1989 "(Add a "try/catch" block for "getWriter".(ÏÚ‚´HÂRMINORZVULNERABILITY
+csquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHÃRINFOZ
+CODE_SMELL
+gsquid:S1161&":Add the "@Override" annotation above this method signature(‹¨¯¿HÄRMAJORZ
+CODE_SMELL
+csquid:S1135'"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHÅRINFOZ
+CODE_SMELL
+Ssquid:S1905*"&Remove this unnecessary cast to "int".(¼ÈÅìHÆRMINORZ
+CODE_SMELL
+Wsquid:S1989*"'Add a "try/catch" block for "parseInt".(¼ÈÅìHÇRMINORZVULNERABILITY
+`squid:S19895"+Add a "try/catch" block for "sendRedirect".(ÓÍ¹úÿÿÿÿHÈRMINORZVULNERABILITY
+}squid:CommentedOutCodeLine)"<This block of commented-out lines of code should be removed.(Ç¸ÛşÿÿÿÿHÉRMAJORZ
+CODE_SMELL

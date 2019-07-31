@@ -1,0 +1,25 @@
+
+[
++src/com/andrewrydzak/web/models/Player.java,8\0\80438071c1d9d011de98bd797d3971142f731fda
+Y
+)src/com/andrewrydzak/web/models/Team.java,8\5\8536457b91cbf2246949206cf6133e37b4e53257
+_
+/src/com/andrew/rydzak/web/controllers/Home.java,1\8\1872f5dd06b2fc4edd1d8dd7d362305e9d579bf1
+O
+WebContent/WEB-INF/css/Home.css,d\9\d96893a3f9c77f0eb821446611b3981843b5ef18
+Q
+!WebContent/WEB-INF/views/Home.jsp,9\f\9fbbc07673aab5620e3fa9ca8fef53a4860185af
+[
++src/com/andrewrydzak/web/models/Roster.java,a\e\aef7533ba131b441941d6fd682c97160f2adabce
+R
+"WebContent/WEB-INF/css/NewTeam.css,e\9\e9e8ce23dfa0f4c76b3c05b517847a0134b94740
+b
+2src/com/andrew/rydzak/web/controllers/NewTeam.java,4\7\47131dbfeb55f5a0b2f14ce4effd26ca59081368
+T
+$WebContent/WEB-INF/views/NewTeam.jsp,e\3\e3881b827f32f1fcf43c8cbffbbd5c15defa1474
+R
+"WebContent/WEB-INF/css/Players.css,b\a\ba024eaab68c1320d96e0eac12c71df6e692d84e
+b
+2src/com/andrew/rydzak/web/controllers/Players.java,7\b\7ba994fe1bd9870a362c0c93e43c278bf1371395
+T
+$WebContent/WEB-INF/views/Players.jsp,b\e\be5bafe16e69834d760e7332a748d89fc8d15a51

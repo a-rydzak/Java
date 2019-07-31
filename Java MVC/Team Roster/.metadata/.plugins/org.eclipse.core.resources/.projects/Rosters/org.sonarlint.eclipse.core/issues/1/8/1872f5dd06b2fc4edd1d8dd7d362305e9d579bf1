@@ -1,0 +1,14 @@
+
+Ysquid:S19896"$Add a "try/catch" block for "doGet".(®Ó‘ûÿÿÿÿÿH‹RMINORZVULNERABILITY
+bsquid:S1989-"&Add a "try/catch" block for "forward".(Àá‘“ýÿÿÿÿ8ôÌÐØ¿-H‡RMINORZVULNERABILITY
+isquid:S2441("<Make "Roster" serializable or don't store it in the session.(®šÝƒ8öâ¹ÉÂ-H‰RMAJORZBUG
+lsquid:S1161!":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿHˆRMAJORZ
+CODE_SMELL
+gsquid:S11614":Add the "@Override" annotation above this method signature(‹¨¯¿HRMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLine5"<This block of commented-out lines of code should be removed.(•À¦ü8žç£òÂ-HÜRMAJORZ
+CODE_SMELL
+}squid:S1192$"GDefine a constant instead of duplicating this literal "roster" 4 times.(Ä¬ƒ8öâ¹ÉÂ-H†RCRITICALZ
+CODE_SMELL
+bsquid:S1989-"&Add a "try/catch" block for "forward".(Àá‘“ýÿÿÿÿ8ôÌÐØ¿-HŠRMINORZVULNERABILITY
+Ysquid:S19896"$Add a "try/catch" block for "doGet".(®Ó‘ûÿÿÿÿÿHŒRMINORZVULNERABILITY

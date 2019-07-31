@@ -1,0 +1,17 @@
+
+^squid:S3010"%Remove this assignment of "numTeams".(§Öáæùÿÿÿÿ8áÎâñÂ-H’RMAJORZ
+CODE_SMELL
+^squid:S1481`"*Remove this unused "count" local variable.(æÕ¿¼8áÎâñÂ-H“RMINORZ
+CODE_SMELL
+¤squid:S1319!"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ğÂ›8ôŒÉÂ-H”RMINORZ
+CODE_SMELL
+¤squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ï¶‹ü8Ó±ø×¿-H•RMINORZ
+CODE_SMELL
+“squid:S1488["ZImmediately return this expression instead of assigning it to the temporary variable "b1".(××ªşÿÿÿÿ8ôŒÉÂ-H–RMINORZ
+CODE_SMELL
+ªsquid:S1319"qThe type of the "roster" object should be an interface such as "List" rather than the implementation "ArrayList".(½³‹üÿÿÿÿ8Ó±ø×¿-H—RMINORZ
+CODE_SMELL
+^squid:S1481O"*Remove this unused "count" local variable.(æÕ¿¼8áÎâñÂ-H˜RMINORZ
+CODE_SMELL
+“squid:S1488j"ZImmediately return this expression instead of assigning it to the temporary variable "b1".(××ªşÿÿÿÿ8áÎâñÂ-H™RMINORZ
+CODE_SMELL

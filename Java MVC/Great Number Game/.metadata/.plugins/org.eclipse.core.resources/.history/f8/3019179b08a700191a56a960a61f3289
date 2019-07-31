@@ -1,0 +1,18 @@
+@charset "ISO-8859-1";
+
+#container{
+	width:100%;
+	text-align:center;
+}
+
+#low{
+	background-color: red;
+}
+
+#high{
+	background-color: red;
+}
+
+#correct{
+	background-color: green;
+}

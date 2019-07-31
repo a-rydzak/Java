@@ -1,0 +1,15 @@
+
+bsquid:S1989%"&Add a "try/catch" block for "forward".(Àá‘“ýÿÿÿÿ8ÚÌáðÂ-H¦RMINORZVULNERABILITY
+csquid:S1135,"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿHŸRINFOZ
+CODE_SMELL
+isquid:S24414"<Make "Roster" serializable or don't store it in the session.(®šÝƒ8ØÝÛòÂ-HüRMAJORZBUG
+bsquid:S1989%"&Add a "try/catch" block for "forward".(Àá‘“ýÿÿÿÿ8ÚÌáðÂ-H¥RMINORZVULNERABILITY
+lsquid:S1161"":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿH™RMAJORZ
+CODE_SMELL
+csquid:S1135#"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿH›RINFOZ
+CODE_SMELL
+gsquid:S1161+":Add the "@Override" annotation above this method signature(‹¨¯¿HœRMAJORZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿH˜RINFOZ
+CODE_SMELL
+bsquid:S19897"+Add a "try/catch" block for "sendRedirect".(²·•Œ8¡ýñÂ-HØRMINORZVULNERABILITY

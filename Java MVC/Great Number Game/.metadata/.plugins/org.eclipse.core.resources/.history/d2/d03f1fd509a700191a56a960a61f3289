@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+
+#container{
+	width:100%;
+	text-align:center;
+}
+
+#resultContainer{
+	border-style:solid;
+	border-color:blue;
+	width:100%;
+	align-content:center;
+	text-align:center;
+}
+.card{
+	vertical-align:middle;
+	margin:auto;
+	width:100px;
+	height:100px;	
+}
+.incorrect{
+
+	background-color: red;
+}
+
+#correct{
+	vertical-align:middle;
+	margin:auto;
+	width:100px;
+	height:100px;
+	background-color: green;
+}
